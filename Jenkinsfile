@@ -35,6 +35,8 @@
     								    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.45.118:/opt/apache-tomcat-9.0.83/webapps"
     								}
 							  }
-         */
+         
 		
 		}
+
+  */
