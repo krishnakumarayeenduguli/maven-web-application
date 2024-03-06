@@ -1,4 +1,4 @@
-node{
+/* 	node{
     properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('* * * * *')])])
     
 	def mavenHome = tool name: 'maven_3.9.6'
@@ -20,7 +20,7 @@ node{
                     		  }
 
   
-			       /*       stage('ExcuteSonarQubeReport')
+			             stage('ExcuteSonarQubeReport')
 							  {
 							    sh "${mavenHome}/bin/mvn clean sonar:sonar"
 							  }
